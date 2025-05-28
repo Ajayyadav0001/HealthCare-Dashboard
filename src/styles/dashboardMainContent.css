@@ -1,0 +1,27 @@
+.dashboard-content {
+    padding: 1rem 3rem 1rem 2rem;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+    
+    /* padding: 1.5rem 2rem;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  max-width: 100%;       /* Remove hard limit */
+  /* margin: 0 auto;
+  box-sizing: border-box;  */
+  }
+  
+  .anatomy-health {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .bottom-section {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  

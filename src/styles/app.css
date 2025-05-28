@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+.app-container {
+   width: 100%;
+  max-width: 100%;
+  display: flex;
+  height: 100vh;
+  width: 100vw; 
+  overflow: hidden;
+}
+
+.main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+
+@media (max-width: 768px) {
+  .anatomy-health,
+  .bottom-section,
+  .calendar-appointments,
+  .cards-row,
+  .status-cards {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+  }
+
+  .main-area {
+    width: 100%;
+    height: auto;
+  }
+
+  .anatomy-health,
+  .bottom-section {
+    flex-direction: column;
+    
+  }
+
+  .calendar-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+    .calendar-appointments {
+    flex-direction: column;
+  }
+
+  .header-right {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .status-cards, .simple-card {
+    flex-direction: column;
+  }
+
+  .cards-row {
+    flex-direction: column;
+  }
+}

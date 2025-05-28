@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.3rem;
+    font-weight: 650;
+    color: #007aff;
+    margin-right: 2rem;
+  }
+  
+  .search-bar input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #999;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 20px;
+  }
+  
+ .add-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background-color: #3f51b5; 
+  color: white;
+  font-size: 25x;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #2c3ebd;
+}
+
+  
+  .notification-icon {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .username {
+    font-weight: 500;
+    color: #333;
+  }
+  
