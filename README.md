@@ -139,12 +139,5 @@ This project is part of a technical assignment and is intended for demonstration
 
 ```
 
----
 
-### ✅ Next Step
-
-Copy this into a file named `README.md` and place it in the root of your GitHub project.
-
-Let me know if you want to add **GIFs, badges**, or a **walkthrough video** as well!
-```
 
